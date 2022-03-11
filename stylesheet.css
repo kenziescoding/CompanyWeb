@@ -1,0 +1,68 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    padding: 16px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+}
+
+li:hover{
+background-attachment: fixed;
+background-color: rgb(255, 30, 135); 
+}
+
+.navlinks{
+    background-color: rgb(212, 198, 198); 
+    color:black ;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.imagebanner{
+    background-image: url("images/d3681552594e1744d3e6d537c4bbbf6a.jpg");
+    padding: 100px 0;
+    background-size: cover;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+
+.introduction{
+    text-align: center;
+    color: gray;
+    font-size: 1.5rem;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+@media screen and (min-width: 700px) {
+    ul{
+        text-align: right;
+    }
+
+    li{
+        display: inline-block;
+        border-bottom: 0px;
+        border-left: 1px solid black
+    }
+
+    .game {
+        width: 33%;
+        display: inline-block;
+        vertical-align: top;
+    }
+}
